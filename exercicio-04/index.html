@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Exercício 04</title>
+</head>
+
+<body>
+    <h1 class="text-center my-5">Exercício 04</h1>
+    <section class="container">
+        <section class="row">
+            <section class="col-md-12 mt-5">
+                <form class="form-group">
+                    <div class="input-group-prepend my-2">
+                        <label class="input-group-text col-md-4" for="inValorUnit">Preço unitário:</label>
+                        <input class="form-control col-md-8" type="text" name="inValorUnit" id="inValorUnit">
+                    </div>
+                    <div class="input-group-prepend my-2">
+                        <label class="input-group-text col-md-4" for="inQntdProduto">Qntd produto:</label>
+                        <input class="form-control col-md-8" type="text" name="inQntdProduto" id="inQntdProduto">
+                    </div>
+                    <div class="input-group-prepend my-2">
+                        <label class="input-group-text col-md-4" for="inDinheiro">Dinheiro recebido:</label>
+                        <input class="form-control col-md-8" type="text" name="inDinheiro" id="inDinheiro">
+                    </div>
+
+                    <input class="btn btn-primary my-2" type="button" id="btCalcular" value="Calcular"></input>
+
+                </form>
+            </section>
+
+            <div class="container">
+                <h4 id="outTroco"></h4>
+            </div>
+
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
